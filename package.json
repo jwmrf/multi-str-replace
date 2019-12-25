@@ -1,6 +1,6 @@
 {
   "name": "multi-str-replace",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A very simple way to replace one or multiple strings values in one call.",
   "main": "index.js",
   "scripts": {

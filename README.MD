@@ -13,7 +13,7 @@ npm install multi-str-replace
 ```
 const replace = require('multi-str-replace');
 
-var texto = "All vowels letters can be changed to the X letter in same time"
+texto = "All vowels letters can be changed to the X letter in same time"
 
 let new_texto = replace(texto,["a","e","i","o","u"],"X");
 ```
@@ -23,7 +23,7 @@ let new_texto = replace(texto,["a","e","i","o","u"],"X");
 ```
 const replace = require('multi-str-replace');
 
-var texto = "All ocurrences of 'e' letter can be changed to the X letter"
+texto = "All ocurrences of 'e' letter can be changed to the X letter"
 
 let new_texto = replace(texto,"e","X");
 ```

@@ -1,4 +1,4 @@
-async function str_multi_replace(texto, array_to, from){
+function str_multi_replace(texto, array_to, from){
     for(let to of array_to){
         texto = texto.split(to).join(from)
     }
