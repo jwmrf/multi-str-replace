@@ -4,4 +4,4 @@ async function str_multi_replace(texto, array_to, from){
     }
     return texto;
 }
-module.export = str_multi_replace;
+module.exports = str_multi_replace;
